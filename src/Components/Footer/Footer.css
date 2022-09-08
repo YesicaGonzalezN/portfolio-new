@@ -4,8 +4,13 @@ footer {
     font-size: 1rem;
 }
 
+.footer-name {
+    color: #F15356;
+    font-size: 2rem;
+}
+
 footer a {
-    color: #030a44;    
+    color: #000;    
     text-decoration: none;
     font-weight: 500;
 }
@@ -27,7 +32,7 @@ footer a {
 }
 
 .footer-list li a:hover {
-    color: #001484;    
+    color: #000;    
     transition: .4s;
 }
 
@@ -43,8 +48,7 @@ footer a {
     color: #fff;
 }
 
-.footer-social a {
-    background: #000635;    
+.footer-social a {  
     border-radius: 50px;
     border: 1px solid transparent;
     padding: 0.7rem;
@@ -52,7 +56,18 @@ footer a {
     transition: .4s;
 }
 
-.footer-social a:hover {
-    background: #001484;
+.footer-social a:nth-child(1) {
+    background: #8dffa7;  
+}
+
+.footer-social a:nth-child(2) {
+    background: #73b2ff;  
+}
+
+.footer-social a:hover:nth-child(1) {
+    background: #46ff71;
+}
+.footer-social a:hover:nth-child(2) {
+    background: #3d94ff;
 }
 

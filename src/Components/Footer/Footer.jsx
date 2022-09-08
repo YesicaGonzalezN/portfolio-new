@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer>
-        <div className="footer-name">&lt;/Nicole&gt;</div>
+        <div className="footer-name"><h2>&lt;/YG&gt;</h2></div>
 
         <ul style={{listStyleType: 'none'}} className="footer-list">
             <li><a href="#main">Inicio</a></li>
