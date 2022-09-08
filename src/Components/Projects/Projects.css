@@ -92,7 +92,7 @@
     color: #ff6969;
 }
 .card-project:nth-child(3) .name-project {
-    color: #b2ff54;
+    color: #cbff8b;
 }
 
 .card-project:hover .name-project {
@@ -178,7 +178,7 @@
 }
 .card-project:nth-child(3) .circle-project,
 .card-project:nth-child(3) .button-project a {
-    background: #b2ff54;
-    border: 1px solid #b2ff54;
+    background: #cbff8b;
+    border: 1px solid #cbff8b;
     color: #fff;
 }
