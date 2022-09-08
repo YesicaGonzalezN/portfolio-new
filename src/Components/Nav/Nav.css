@@ -41,7 +41,7 @@
 
 .primary-menu a:hover,
 .primary-menu .active {
-    color: #F39465;
+    color: #db70ff;
 }
 
 .primary-menu li a:after {
@@ -49,7 +49,7 @@
     position: absolute;
     width: 0%;
     height: 2px;
-    background: #F39465;
+    background: #db70ff;
     bottom: 7px;
     left: 0;
     transition: all .5s;
@@ -61,21 +61,6 @@
 
 .primary-menu li .active:after {
     width: 100%;
-}
-
-.mobile-nav {
-    float: right;
-    margin: 5px;
-    padding: 10px;
-    font-size: 24px;
-    color: #ffe24f;
-    outline: none;
-    cursor: pointer;
-    display: none;
-}
-
-ul.show {
-    top: 65px;
 }
 
 @media only screen and (max-width: 758px) {

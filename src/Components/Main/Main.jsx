@@ -2,7 +2,7 @@ import React from 'react';
 import './Main.css';
 import character from '../../img/character.png';
 import flecha from '../../img/flechaa.png';
-import CV from '../../assets/CVYesica Gonzalez-DesarrolloWeb.pdf';
+import CV from '../../assets/CVYesicaGonzalez.pdf';
 
 const Main = () => {
 return (
@@ -10,9 +10,9 @@ return (
   <section className="main-blur">
     <div className="main-left">
       <div className="main-name">
-        <span>Hello!</span>
+        <h2>Hello!</h2>
         <img className="img-flecha" src={flecha} alt="" />
-        <span>Soy Yesica Gonzalez, desarrolladora Web Full Stack.</span>
+        <h4>Soy <span>Yesica Gonzalez</span>, desarrolladora Web Full Stack.</h4>
         <a href={CV} className="main-button">Descargar CV</a>
       </div>
     </div>

@@ -39,16 +39,22 @@
     width: 160px;
 }
 
-.main-name>:nth-child(1) {
+.main-name h2 {
     color: #000;    
     font-weight: 600;
-    font-size: 4.5rem;
+    font-size: 6.2rem;
+    font-family: 'Amatic SC', cursive;
 }
 
-.main-name>:nth-child(3) {
+.main-name h4 {
     color: rgb(0, 0, 0);
     font-weight: 400;
     font-size: 20px;
+}
+
+.main-name h4 span {
+    color:#F15356;
+    font-weight: 600;
 }
 
 .main-button {
