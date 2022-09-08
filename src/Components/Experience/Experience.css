@@ -1,10 +1,15 @@
 #experience {
     margin: 80px 0;
-    background: #e8faff;
+    background: url(../../img/background.jpg);
+    background-size: cover;
+    height: 80%;
 }
 
 .title h2 {
-    margin-top: 80px;
+    font-family: 'Amatic SC', cursive;
+    margin: 60px auto;
+    font-size: 3.5rem;
+    color: #F15356;
 }
 
 .skills {
@@ -35,13 +40,102 @@
     border-radius: 50%;
     box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
                 4px 5px 7px rgba(0, 0, 0, 0.2);
-    transition: 0.5s;
-    color: #000635;    
+    transition: 0.5s;   
     cursor: default;
 }
 
-.skills li:hover {
-    color: #000595;    
+.skills li:nth-child(1) {
+    color:#fd797b; 
+}
+.skills li:hover:nth-child(1) {
+    color: #ff4a4d;    
+}
+.skills li:nth-child(1):before {
+    border: 2px solid #ff4a4d;
+}
+
+.skills li:nth-child(2) {
+    color:#acd4ff; 
+}
+.skills li:hover:nth-child(2) {
+    color: #56a8ff;    
+}
+.skills li:nth-child(2):before {
+    border: 2px solid #acd4ff;
+}
+
+.skills li:nth-child(3) {
+    color:#e18eff; 
+}
+.skills li:hover:nth-child(3) {
+    color: #d45eff;    
+}
+.skills li:nth-child(3):before {
+    border: 2px solid #e18eff;
+}
+
+.skills li:nth-child(4) {
+    color:#7bffc1; 
+}
+.skills li:hover:nth-child(4) {
+    color: #56ffb0;    
+}
+.skills li:nth-child(4):before {
+    border: 2px solid #7bffc1;
+}
+
+.skills li:nth-child(5) {
+    color:#fffb85; 
+}
+.skills li:hover:nth-child(5) {
+    color: #fdf744;    
+}
+.skills li:nth-child(5):before {
+    border: 2px solid #fffb85;
+}
+
+.skills li:nth-child(6) {
+    color:#ffb5e6; 
+}
+.skills li:hover:nth-child(6) {
+    color: #ff8dd7;    
+}
+.skills li:nth-child(6):before {
+    border: 2px solid #ffb5e6;
+}
+
+.skills li:nth-child(7) {
+    color:#ffd498; 
+}
+.skills li:hover:nth-child(7) {
+    color: #ffb168;    
+}
+.skills li:nth-child(7):before {
+    border: 2px solid #ffd498;
+}
+
+.skills li:nth-child(8) {
+    color:#8f8fff; 
+}
+.skills li:hover:nth-child(8) {
+    color: #4a5cff;    
+}
+.skills li:nth-child(8):before {
+    border: 2px solid #8f8fff;
+}
+
+.skills li:nth-child(9) {
+    color:#bb90ff; 
+}
+.skills li:hover:nth-child(9) {
+    color: #9e62ff;    
+}
+.skills li:nth-child(9):before {
+    border: 2px solid #bb90ff;
+}
+
+
+.skills li:hover {   
     transform: translateY(-20px);
     box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
     2px 24px 10px rgba(0, 0, 0, 0.1);  
@@ -55,7 +149,6 @@
     right: 10px;
     bottom: 10px;
     border-radius: 50%;
-    border: 2px solid #000635;
 }
 
 .skills li .fa-brands {
