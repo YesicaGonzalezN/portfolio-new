@@ -1,13 +1,10 @@
 #experience {
-    margin: 80px 0;
-    background: url(../../img/background.jpg);
-    background-size: cover;
-    height: 80%;
+    background: #fff;
 }
 
 .title h2 {
     font-family: 'Amatic SC', cursive;
-    margin: 60px auto;
+    margin: 30px auto;
     font-size: 3.5rem;
     color: #F15356;
 }
