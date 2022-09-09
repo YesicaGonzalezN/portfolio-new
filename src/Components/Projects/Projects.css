@@ -149,7 +149,7 @@
     background: #f15356ad;
     transform-style: preserve-3d;
     z-index: 10;
-    opacity: 0;
+    opacity: 1;
     transform: translate3d(-50%,-50%,50px);
 }
 

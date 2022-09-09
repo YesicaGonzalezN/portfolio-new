@@ -41,7 +41,7 @@
 
 .primary-menu a:hover,
 .primary-menu .active {
-    color: #db70ff;
+    color: #F15356;
 }
 
 .primary-menu li a:after {
@@ -49,7 +49,7 @@
     position: absolute;
     width: 0%;
     height: 2px;
-    background: #db70ff;
+    background: #F15356;
     bottom: 7px;
     left: 0;
     transition: all .5s;
