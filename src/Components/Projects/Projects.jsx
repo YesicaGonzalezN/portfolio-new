@@ -24,20 +24,20 @@ const Projects = () => {
         <div className="card-project">
             <h2 className="name-project">Lista de Tareas</h2>
             <div className="button-project">
-            <a href='https://github.com/YesicaGonzalezN/AquaLife.github.io' target='_blank' rel="noreferrer">GitHub</a>
-            <a href='https://aqualife.vercel.app/' target='_blank' rel="noreferrer">Deploy</a>
+            <a href='https://github.com/YesicaGonzalezN/LISTA-DE-TAREAS' target='_blank' rel="noreferrer">GitHub</a>
+            <a href='https://lista-de-tareas-two.vercel.app/' target='_blank' rel="noreferrer">Deploy</a>
             </div>
             <div className="circle-project"></div>
-            <img src={Lista} alt="Logo Aqualife" />
+            <img src={Lista} alt="Logo Lista" />
         </div>
         <div className="card-project">
             <h2 className="name-project">Calculadora</h2>
             <div className="button-project">
-                <a href='https://github.com/YesicaGonzalezN/AquaLife.github.io' target='_blank' rel="noreferrer">GitHub</a>
-                <a href='https://aqualife.vercel.app/' target='_blank' rel="noreferrer">Deploy</a>
+                <a href='https://github.com/YesicaGonzalezN/calculadora-react' target='_blank' rel="noreferrer">GitHub</a>
+                <a href='https://calculadora-react-blond.vercel.app/' target='_blank' rel="noreferrer">Deploy</a>
             </div>
             <div className="circle-project"></div>
-            <img src={Calculadora} alt="Logo Aqualife" />
+            <img src={Calculadora} alt="Logo Calculadora" />
         </div>
     </div>
 </div>
