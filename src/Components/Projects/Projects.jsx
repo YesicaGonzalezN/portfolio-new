@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.css';
 import Vaso from '../../img/vaso.png';
 import Lista from '../../img/lista.png';
-import Calculadora from '../../img/calculadora.png';
+import Dashboard from '../../img/dashboard.jpg';
 import Tilt from 'react-vanilla-tilt';
 
 const Projects = () => {
@@ -31,13 +31,13 @@ const Projects = () => {
             <img src={Lista} alt="Logo Lista" />
         </div>
         <div className="card-project">
-            <h2 className="name-project">Calculadora</h2>
+            <h2 className="name-project">Dashboard</h2>
             <div className="button-project">
-                <a href='https://github.com/YesicaGonzalezN/calculadora-react' target='_blank' rel="noreferrer">GitHub</a>
-                <a href='https://calculadora-react-blond.vercel.app/' target='_blank' rel="noreferrer">Deploy</a>
+                <a href='https://github.com/YesicaGonzalezN/dashboard-react' target='_blank' rel="noreferrer">GitHub</a>
+                <a href='https://dashboard-juanas.vercel.app/' target='_blank' rel="noreferrer">Deploy</a>
             </div>
             <div className="circle-project"></div>
-            <img src={Calculadora} alt="Logo Calculadora" />
+            <img className="img-dashboard" src={Dashboard} alt="Logo Calculadora" />
         </div>
     </div>
 </div>

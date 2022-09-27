@@ -54,6 +54,9 @@ footer a {
     padding: 0.7rem;
     margin: 0 1rem;
     transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-social a:nth-child(1) {

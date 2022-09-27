@@ -92,7 +92,7 @@
     color: #ff6969;
 }
 .card-project:nth-child(3) .name-project {
-    color: #cbff8b;
+    color: #eda7ff;
 }
 
 .card-project:hover .name-project {
@@ -164,6 +164,10 @@
     transform: translate3d(-50%,-50%,0px);
 }
 
+.img-dashboard {
+    width: 200px;
+}
+
 .card-project:nth-child(1) .circle-project,
 .card-project:nth-child(1) .button-project a {
     background: #88d5ff;
@@ -178,7 +182,7 @@
 }
 .card-project:nth-child(3) .circle-project,
 .card-project:nth-child(3) .button-project a {
-    background: #cbff8b;
-    border: 1px solid #cbff8b;
+    background: #eda7ff;
+    border: 1px solid #eda7ff;
     color: #fff;
 }
