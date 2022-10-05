@@ -1,1 +1,1 @@
-Portafolio Personal creado con React.
+Portafolio Personal.
